@@ -15,7 +15,6 @@ export default defineConfig({
   // Add 'experimental.integrations: true' to make 'astro-robots-txt' working
   // with 'astro build' command.
   experimental: {
-    integrations: true,
   },
   markdown: {
     shikiConfig: {
