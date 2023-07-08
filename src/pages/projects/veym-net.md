@@ -29,4 +29,23 @@ We decided to build a new site from scratch with the following requirements:
 
 ## Development
 
+### Tech Stack
 
+#### Next.js
+
+Next.js was chosen as the frontend framework for its ease of use and flexibility. It has a great developer experience with features like hot module reloading and automatic code splitting, and the ISR (incremental static regeneration) feature is useful for keeping the site content up to date without requiring full rebuilds.
+
+#### ChakraUI
+
+ChakraUI is a component library that provides a set of accessible, reusable, and composable React components that make it easy to build websites and apps. It provides a great developer experience with features like theme support, dark mode, and responsive styles out of the box. Since the majority of our users are on mobile devices, it was important to have a responsive site that looks good on all screen sizes.
+
+#### Directus
+
+Directus is an open-source headless CMS that provides a user-friendly UI for content editors to manage content. It is built with a modern tech stack and has a great developer experience. It is easy to extend and customize, and it provides a REST API for the frontend to fetch content. We self hosted this on our VM in Azure and it uses our Azure AD B2C for authentication.
+
+![Directus](/src/images/screenshot-directus.png 'Directus')
+<figcaption align="center">Directus CMS</figcaption>
+
+#### Vercel
+
+Vercel is a cloud platform for static sites and serverless functions. It provides a great developer experience with features like automatic deployments, preview deployments, and serverless functions. It is easy to integrate with Github and the free tier is very generous.
