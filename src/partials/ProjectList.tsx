@@ -36,6 +36,7 @@ const ProjectList = () => (
             <Tags color={ColorTags.BLUE}>TypeScript</Tags>
           </>
         }
+        pageLink="veym-net"
       />
       <Project
         name="VEYM Members Portal"
