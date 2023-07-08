@@ -30,7 +30,7 @@ const Navbar2 = () => {
           </a>
         </div>
         <div>
-          <div className="hidden h-full pl-12 pb-2 lg:flex">
+          <div className="hidden h-full pb-2 pl-12 lg:flex">
             {navbarLinks.map(({ href, label, ariaLabel }) => (
               <a
                 className="mx-4 h-full cursor-pointer  pt-2 text-2xl font-normal  leading-6 text-white transition duration-300 hover:scale-110 lg:text-base lg:font-medium 2xl:mx-6"
@@ -69,7 +69,7 @@ const Navbar2 = () => {
 
       {isOpen && (
         <div
-          className="absolute top-4 left-0 z-50 mt-16 flex w-full flex-col  items-center gap-6 border-y 
+          className="absolute left-0 top-4 z-50 mt-16 flex w-full flex-col  items-center gap-6 border-y 
         border-solid border-gray-700 bg-gray-900  py-4 lg:hidden"
         >
           {navbarLinks.map(({ label, href, ariaLabel }) => (
@@ -85,7 +85,7 @@ const Navbar2 = () => {
           ))}
           <a
             className="flex rounded-xl border border-solid border-[rgba(255,255,255,0.15)]
-            bg-gray-800  py-2 px-6 text-sm text-white hover:bg-gray-900"
+            bg-gray-800  px-6 py-2 text-sm text-white hover:bg-gray-900"
             href="https://github.com/matt765/Tidestream"
             target="_blank"
           >

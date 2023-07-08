@@ -1,4 +1,5 @@
 # Leeto Portfolio
+[![Netlify Status](https://api.netlify.com/api/v1/badges/cc05d36e-ffd2-43bb-811f-c9568e8139e8/deploy-status)](https://app.netlify.com/sites/leeto-portfolio/deploys)
 
 ⚡️ Made with Astro, TypeScript, ESLint, Prettier,
 Tailwind CSS.
