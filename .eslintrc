@@ -109,7 +109,8 @@
       "parserOptions": {
         "parser": "@typescript-eslint/parser",
         "project": "./tsconfig.json",
-        "extraFileExtensions": [".astro"]
+        "extraFileExtensions": [".astro"],
+        "tsconfigRootDir": "."
       },
       "rules": {
         "prettier/prettier": [
