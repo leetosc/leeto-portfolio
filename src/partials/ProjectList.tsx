@@ -3,6 +3,14 @@ import { Project } from '@/components/Project/Project';
 import { Section } from '@/components/Section/Section';
 import { ColorTags, Tags } from '@/components/Tags/Tags';
 
+import logoDocsHelper from '../../public/assets/images/projectIcons/docsHelper.png';
+import logoHtHero from '../../public/assets/images/projectIcons/htHero.png';
+import logoMembersPortal from '../../public/assets/images/projectIcons/membersPortal.png';
+import logoQuizAide from '../../public/assets/images/projectIcons/quizaide.png';
+import logoUrlShortener from '../../public/assets/images/projectIcons/urlshortener.png';
+import logoVeym from '../../public/assets/images/projectIcons/veym.png';
+import logoVeymBiz from '../../public/assets/images/projectIcons/veymBiz.png';
+
 const ProjectList = () => (
   <Section
     title={
@@ -17,7 +25,7 @@ const ProjectList = () => (
         description="Official Website of the Vietnamese Eucharistic Youth Movement in the USA"
         link="https://veym.net"
         img={{
-          src: 'https://veym.net/tnttlogo-1.png',
+          src: logoVeym,
           alt: 'VEYM.net',
         }}
         category={
@@ -34,7 +42,7 @@ const ProjectList = () => (
         description="Membership Management System for VEYM"
         link="https://members.veym.net"
         img={{
-          src: 'https://members.veym.net/membersPortal.png',
+          src: logoMembersPortal,
           alt: 'Members Portal',
         }}
         category={
@@ -50,7 +58,7 @@ const ProjectList = () => (
         description="AI Assistant that can answer questions about VEYM documents"
         link="https://docs-helper.veym.app"
         img={{
-          src: 'https://docs-helper.veym.app/robotbook3.png',
+          src: logoDocsHelper,
           alt: 'Docs Helper',
         }}
         category={
@@ -70,7 +78,7 @@ const ProjectList = () => (
         description="Directory of businesses owned by VEYM members"
         link="https://biz.veym.net"
         img={{
-          src: 'https://biz.veym.net/biz-logo.png',
+          src: logoVeymBiz,
           alt: 'VEYM Biz',
         }}
         category={
@@ -89,7 +97,7 @@ const ProjectList = () => (
         description="Generate ideas for VEYM activities"
         link="https://ht-hero.veym.app"
         img={{
-          src: 'https://ht-hero.veym.app/logo.png',
+          src: logoHtHero,
           alt: 'HT Hero',
         }}
         category={
@@ -109,7 +117,7 @@ const ProjectList = () => (
         description="Generate quiz questions and export to Kahoot"
         link="https://quizaide.leeto.dev"
         img={{
-          src: 'https://quizaide.leeto.dev/robotbook2.png',
+          src: logoQuizAide,
           alt: 'Quiz Aide',
         }}
         category={
@@ -130,7 +138,7 @@ const ProjectList = () => (
         description="Create and manage shortened URLs"
         link="https://url.veym.net"
         img={{
-          src: 'https://url.veym.net/urlshortener.png',
+          src: logoUrlShortener,
           alt: 'URL Shortener',
         }}
         category={
