@@ -1,0 +1,11 @@
+/* Backgrounds */
+
+.custom-bg-dark1 {
+  @apply bg-customDarkBg1  fill-customDarkBg1;
+}
+.custom-bg-dark2 {
+  @apply bg-customDarkBg2  fill-customDarkBg2;
+}
+.custom-bg-dark3 {
+  @apply bg-customDarkBg3  fill-customDarkBg3;
+}

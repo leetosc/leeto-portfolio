@@ -1,0 +1,49 @@
+---
+import { BlogGallery } from '@/components/BlogGallery/BlogGallery';
+import { NewerOlderPagination } from '@/components/NewerOlderPagination/NewerOlderPagination';
+import { PaginationHeader } from '@/components/PaginationHeader/PaginationHeader';
+import { Section } from '@/components/Section/Section';
+import Base from '@/templates/Base.astro';
+import type { FrontmatterPage, IFrontmatter } from '@/types/IFrontMatter';
+import { AppConfig } from '@/utils/AppConfig';
+import { sortByDate } from '@/utils/Posts';
+
+type GetStaticPaths = {
+  paginate: any;
+}; // Overrides `GetStaticPathsOptions` types from Astro
+
+export async function getStaticPaths({ paginate }: GetStaticPaths) {
+  const allPosts = await Astro.glob<IFrontmatter>('./*.md');
+  const sortedPosts = sortByDate(allPosts);
+
+  // Return a paginated collection of paths for all posts
+  return paginate(sortedPosts, { pageSize: 6 });
+}
+
+interface Props {
+  page: FrontmatterPage;
+}
+
+const { page } = Astro.props as Props;
+const titleSuffix = ` - ${AppConfig.site_name}`;
+const titleBase = `Projects page ${page.currentPage}`;
+const title = titleBase + titleSuffix;
+const description = 'Some of my side projects';
+---
+
+<Base head={{ title, description }}>
+  <div class='pt-24'>
+    <Section>
+      <PaginationHeader title='Projects' description='Some of my side projects'
+      />
+    </Section>
+
+    <Section>
+      <BlogGallery postList={page.data} />
+    </Section>
+
+    <Section>
+      <NewerOlderPagination page={page} />
+    </Section>
+  </div>
+</Base>
