@@ -14,7 +14,7 @@ The current version of the VEYM.net website launched in October 2022. It is buil
 
 The previous version of the VEYM.net website was built in 2018 using Gatsby, with a Wordpress backend. This replaced a much older Wordpress site with many usability issues.
 
-![veym old](/src/images/screenshot-veymold.png 'Old VEYM site')
+![veym old](/assets/images/posts/screenshot-veymold.png 'Old VEYM site')
 <figcaption align="center">Old VEYM.net Site</figcaption>
 
 Due to limitations imposed by the original architecture, over the years it became increasingly hard to maintain and most content changes had to be done manually in the codebase. All changes had to go through the deveopers (me).
@@ -43,7 +43,7 @@ ChakraUI is a component library that provides a set of accessible, reusable, and
 
 Directus is an open-source headless CMS that provides a user-friendly UI for content editors to manage content. It is built with a modern tech stack and has a great developer experience. It is easy to extend and customize, and it provides a REST API for the frontend to fetch content. We self hosted this on our VM in Azure and it uses our Azure AD B2C for authentication.
 
-![Directus](/src/images/screenshot-directus.png 'Directus')
+![Directus](/assets/images/posts/screenshot-directus.png 'Directus')
 <figcaption align="center">Directus CMS</figcaption>
 
 #### Vercel
