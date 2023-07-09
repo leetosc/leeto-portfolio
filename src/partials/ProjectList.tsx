@@ -135,6 +135,7 @@ const ProjectList = () => (
             <Tags color={ColorTags.BLUE}>TypeScript</Tags>
           </>
         }
+        pageLink="quiz-aide"
       />
       <Project
         name="VEYM URL Shortener"
