@@ -73,6 +73,7 @@ const ProjectList = () => (
             <Tags color={ColorTags.BLUE}>TypeScript</Tags>
           </>
         }
+        pageLink="docs-helper"
       />
       <Project
         name="VEYM Business Directory"
@@ -112,6 +113,7 @@ const ProjectList = () => (
             <Tags color={ColorTags.BLUE}>TypeScript</Tags>
           </>
         }
+        pageLink="ht-hero"
       />
       <Project
         name="Quiz Aide"
