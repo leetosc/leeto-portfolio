@@ -15,7 +15,7 @@ const ProjectList = () => (
   <Section
     title={
       <>
-        <GradientText>Projects</GradientText>
+        "Side" <GradientText>Projects</GradientText>
       </>
     }
   >
@@ -184,6 +184,7 @@ const ProjectList = () => (
             <Tags color={ColorTags.YELLOW}>JavaScript</Tags>
           </>
         }
+        pageLink="virtual-htdt"
       />
     </div>
   </Section>
