@@ -2,7 +2,7 @@
 layout: '@/templates/BasePost.astro'
 title: HT Hero
 description: Generate ideas for Sinh Hoat
-pubDate: 2023-07-06T00:00:00Z
+pubDate: 2023-04-15T00:00:00Z
 imgSrc: '/assets/images/projectIcons/htHero.png'
 imgAlt: 'ht hero'
 ---

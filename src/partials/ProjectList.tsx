@@ -3,6 +3,7 @@ import { Project } from '@/components/Project/Project';
 import { Section } from '@/components/Section/Section';
 import { ColorTags, Tags } from '@/components/Tags/Tags';
 
+import screenshotBoardGames from '../../public/assets/images/posts/screenshot-leetogames.png';
 import logoDocsHelper from '../../public/assets/images/projectIcons/docsHelper.png';
 import logoHtHero from '../../public/assets/images/projectIcons/htHero.png';
 import logoMembersPortal from '../../public/assets/images/projectIcons/membersPortal.png';
@@ -168,6 +169,7 @@ const ProjectList = () => (
             <Tags color={ColorTags.YELLOW}>JavaScript</Tags>
           </>
         }
+        pageLink="wedding-website"
       />
       <Project
         name="Virtual HTDT"
@@ -185,6 +187,24 @@ const ProjectList = () => (
           </>
         }
         pageLink="virtual-htdt"
+      />
+      <Project
+        name="Board Game Library"
+        description="Catalog of my board game collection, with check-in/check-out system"
+        link="https://leeto.games"
+        img={{
+          src: screenshotBoardGames,
+          alt: 'leeto.games',
+        }}
+        category={
+          <>
+            <Tags color={ColorTags.SLATE}>Next.js</Tags>
+            <Tags color={ColorTags.EMERALD}>ChakraUI</Tags>
+            <Tags color={ColorTags.ORANGE}>Firebase</Tags>
+            <Tags color={ColorTags.YELLOW}>JavaScript</Tags>
+          </>
+        }
+        pageLink="leeto-games"
       />
     </div>
   </Section>

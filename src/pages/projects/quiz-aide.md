@@ -2,7 +2,7 @@
 layout: '@/templates/BasePost.astro'
 title: Quiz Aide
 description: Generate questions and export to Kahoot
-pubDate: 2023-07-06T00:00:00Z
+pubDate: 2023-07-01T00:00:00Z
 imgSrc: '/assets/images/projectIcons/quizaide.png'
 imgAlt: 'quiz aide'
 ---

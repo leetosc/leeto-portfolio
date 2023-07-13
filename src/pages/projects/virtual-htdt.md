@@ -2,7 +2,7 @@
 layout: '@/templates/BasePost.astro'
 title: Virtual HTDT
 description: Online HTDT for Don Bosco Virtual Camp 2021
-pubDate: 2023-07-06T00:00:00Z
+pubDate: 2021-03-20T00:00:00Z
 imgSrc: 'https://virtualhtdt.donbosco.cc/saigon/benthanh.jpg'
 imgAlt: 'virtual htdt'
 ---

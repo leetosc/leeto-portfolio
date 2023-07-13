@@ -2,7 +2,7 @@
 layout: '@/templates/BasePost.astro'
 title: Wedding Website
 description: My wedding website
-pubDate: 2023-07-06T00:00:00Z
+pubDate: 2021-12-18T00:00:00Z
 imgSrc: '/assets/images/posts/screenshot-dknlovestory.png'
 imgAlt: 'dknlovestory'
 ---
@@ -17,7 +17,7 @@ I made this site for my wedding in 2021 using Gatsby. I used it to share info ab
   - Responses went to a Google Sheet
 - Photos pulled from Google Photos Albums
 - Countdown to the wedding (now counting up)
-- Seating chart for the reception
+- Searchable seating chart for the reception
 
 
 ![dknlovestory](/assets/images/posts/screenshot-dknlovestory.png 'Wedding Website')

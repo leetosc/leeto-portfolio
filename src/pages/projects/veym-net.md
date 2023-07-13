@@ -2,7 +2,7 @@
 layout: '@/templates/BasePost.astro'
 title: VEYM.net
 description: Official Website of the Vietnamese Eucharistic Youth Movement in the USA
-pubDate: 2023-07-06T00:00:00Z
+pubDate: 2022-09-30T00:00:00Z
 imgSrc: '/assets/images/posts/screenshot-veymnet.png'
 imgAlt: 'veym.net'
 ---

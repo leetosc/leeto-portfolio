@@ -2,7 +2,7 @@
 layout: '@/templates/BasePost.astro'
 title: HT Docs Helper
 description: AI Assistant that can answer questions about VEYM documents
-pubDate: 2023-07-06T00:00:00Z
+pubDate: 2023-06-25T00:00:00Z
 imgSrc: '/assets/images/projectIcons/docsHelper.png'
 imgAlt: 'docs helper'
 ---
