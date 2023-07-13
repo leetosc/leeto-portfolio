@@ -32,7 +32,7 @@ const Project = ({
       </a>
     </div>
 
-    <div>
+    <div className="w-full">
       <div className="flex flex-col items-center gap-y-2 md:flex-row">
         <a
           className="hover:text-cyan-400"
@@ -41,8 +41,9 @@ const Project = ({
         >
           <div className="text-xl font-semibold">{name}</div>
         </a>
-
-        <div className="ml-3 flex flex-wrap gap-2">{category}</div>
+      </div>
+      <div className="my-4 flex flex-wrap justify-center gap-2 md:justify-start">
+        {category}
       </div>
 
       <p className="mt-3 text-gray-400">{description}</p>
