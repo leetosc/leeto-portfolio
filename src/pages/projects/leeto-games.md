@@ -13,7 +13,7 @@ Looking back, the code and overall architecture could be improved in many ways, 
 
 ### Motivation
 
-ue to my reasonably extensive collection of board games, I found myself struggling to keep track of who had borrowed which games. Consequently, I initially created this system with the sole purpose of managing my collection. Over time, I expanded its functionality to include additional features like tracking plays and scores.
+I have a decently large collection of board games, and people often came over to borrow some. Because of this, I found myself struggling to keep track of who had borrowed which games. Consequently, I initially created this system with the sole purpose of managing my collection. Over time, I expanded its functionality to include additional features like tracking plays and scores.
 
 ### Tech Stack
 
@@ -34,6 +34,6 @@ ue to my reasonably extensive collection of board games, I found myself struggli
 - Support for multiple users and libraries
 
 
-![leeto.games](/assets/images/posts/screenshot-leetogames2.png 'Leeto.gamess')
-<figcaption align="center">View Stats</figcaption>
+![leeto.games](/assets/images/posts/screenshot-leetogames2.png 'Leeto.games')
+<figcaption align="center">Stats View</figcaption>
 

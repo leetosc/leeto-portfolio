@@ -3,6 +3,7 @@ import { Project } from '@/components/Project/Project';
 import { Section } from '@/components/Section/Section';
 import { ColorTags, Tags } from '@/components/Tags/Tags';
 
+import screenshotDbsafe from '../../public/assets/images/posts/screenshot-dbsafe1.png';
 import screenshotBoardGames from '../../public/assets/images/posts/screenshot-leetogames.png';
 import logoDocsHelper from '../../public/assets/images/projectIcons/docsHelper.png';
 import logoHtHero from '../../public/assets/images/projectIcons/htHero.png';
@@ -205,6 +206,25 @@ const ProjectList = () => (
           </>
         }
         pageLink="leeto-games"
+      />
+      <Project
+        name="DB COVID Screening"
+        description="COVID screening form for 2020-2021 school year"
+        link="https://checkin.donbosco.cc"
+        img={{
+          src: screenshotDbsafe,
+          alt: 'dbsafe',
+        }}
+        category={
+          <>
+            <Tags color={ColorTags.PURPLE}>Gatsby</Tags>
+            <Tags color={ColorTags.SKY}>Tailwind CSS</Tags>
+            <Tags color={ColorTags.GREEN}>Google Sheets</Tags>
+            <Tags color={ColorTags.ORANGE}>Firebase</Tags>
+            <Tags color={ColorTags.YELLOW}>JavaScript</Tags>
+          </>
+        }
+        pageLink="dbsafe"
       />
     </div>
   </Section>

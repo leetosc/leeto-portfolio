@@ -25,3 +25,5 @@ I made this site for my wedding in 2021 using Gatsby. I used it to share info ab
 
 ## Notes
 Since there are so many photos in the Google Photos albums and the images are pulled and optimized at build time, the builds were taking too long and timing out on Netlify. I had to build it locally and deploy the build directory to Netlify using the CLI. 
+
+Getting the RSVP form to send data to a Google Sheet relied on a clever trick using Google Forms. It involved getting the ID of each field of the Google Form and using that in my custom form on the RSVP page. When the user clicked Submit it would act as if they had submitted the Google Form, and the data would be sent to the Google Sheet.
