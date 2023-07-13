@@ -3,8 +3,11 @@ import { Project } from '@/components/Project/Project';
 import { Section } from '@/components/Section/Section';
 import { ColorTags, Tags } from '@/components/Tags/Tags';
 
+import screenshotDbld from '../../public/assets/images/posts/screenshot-dbld1.png';
 import screenshotDbsafe from '../../public/assets/images/posts/screenshot-dbsafe1.png';
 import screenshotBoardGames from '../../public/assets/images/posts/screenshot-leetogames.png';
+import screenshotPPLouisville from '../../public/assets/images/posts/screenshot-phophilouisville.png';
+import screenshotVdh7 from '../../public/assets/images/posts/screenshot-vdh7.png';
 import logoDocsHelper from '../../public/assets/images/projectIcons/docsHelper.png';
 import logoHtHero from '../../public/assets/images/projectIcons/htHero.png';
 import logoMembersPortal from '../../public/assets/images/projectIcons/membersPortal.png';
@@ -17,11 +20,14 @@ const ProjectList = () => (
   <Section
     title={
       <>
-        "Side" <GradientText>Projects</GradientText>
+        <GradientText>Projects</GradientText>
       </>
     }
   >
     <div className="flex flex-col gap-6">
+      <p className="mb-4">
+        Arbitrarily ordered by a combination of significance and date created
+      </p>
       <Project
         name="VEYM.net Website"
         description="Official Website of the Vietnamese Eucharistic Youth Movement in the USA"
@@ -225,6 +231,61 @@ const ProjectList = () => (
           </>
         }
         pageLink="dbsafe"
+      />
+      <Project
+        name="Pho Phi Louisville"
+        description="Website for Pho Phi Restaurant in Louisville, KY"
+        link="https://phophi.net"
+        img={{
+          src: screenshotPPLouisville,
+          alt: 'pho phi',
+        }}
+        category={
+          <>
+            <Tags color={ColorTags.PURPLE}>Gatsby</Tags>
+            <Tags color={ColorTags.SKY}>Tailwind CSS</Tags>
+            <Tags color={ColorTags.LIME}>Netlify CMS</Tags>
+            <Tags color={ColorTags.ORANGE}>Firebase Functions</Tags>
+            <Tags color={ColorTags.YELLOW}>JavaScript</Tags>
+          </>
+        }
+        pageLink="phophilouisville"
+      />
+      <Project
+        name="DB Lion Dance"
+        description="Website for the Don Bosco Lion Dance Team"
+        link="https://dbliondance.com"
+        img={{
+          src: screenshotDbld,
+          alt: 'dbld',
+        }}
+        category={
+          <>
+            <Tags color={ColorTags.PURPLE}>Gatsby</Tags>
+            <Tags color={ColorTags.LIME}>Netlify CMS</Tags>
+            <Tags color={ColorTags.ORANGE}>Firebase Functions</Tags>
+            <Tags color={ColorTags.YELLOW}>JavaScript</Tags>
+          </>
+        }
+        pageLink="dbld"
+      />
+      <Project
+        name="VDH7"
+        description="Informational website for Đại Hội Về Đất Hứa 7 which unfortunately was cancelled due to COVID-19"
+        link="https://vdh7.veym.net"
+        img={{
+          src: screenshotVdh7,
+          alt: 'vdh7',
+        }}
+        category={
+          <>
+            <Tags color={ColorTags.PURPLE}>Gatsby</Tags>
+            <Tags color={ColorTags.LIME}>Netlify CMS</Tags>
+            <Tags color={ColorTags.ORANGE}>Firebase Functions</Tags>
+            <Tags color={ColorTags.YELLOW}>JavaScript</Tags>
+          </>
+        }
+        pageLink="vdh7"
       />
     </div>
   </Section>

@@ -21,7 +21,7 @@ The app would show a green or red ticket that the students or parents could scre
 - Gatsby
   - This did not really need to be built with Gatsby, it could have been a simple SPA and I had to figure out a few things to get it to work right with Gatsby (`window` object not existing on the server, etc.). However, I had used Gatsby for another project at the time and just went with it because it was familiar.
 - Tailwind CSS
-  - This was my first time using Tailwind CSS. I liked it and much prefer it to raw CSS.
+  - This was my first time using Tailwind CSS in a personal project. I liked it and much prefer it to raw CSS. I learned a lot from using it and have used it in many other projects since.
 - Formik
   - Formik was used to manage the form state and validation. The most complicated part was the Field Array that allowed multiple students to be added under one form, so that only one submission was needed per household.
 - Google Sheets API

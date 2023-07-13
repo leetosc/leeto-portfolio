@@ -64,8 +64,8 @@ writing, that's Node v16.15.1
 Run the following command on your local environment:
 
 ``` bash
-git clone --depth=1 https://github.com/ixartz/Astro-boilerplate
-cd my-project-name
+git clone git@github.com:leetosc/leeto-portfolio.git
+cd leeto-portfolio
 npm install
 ```
 
