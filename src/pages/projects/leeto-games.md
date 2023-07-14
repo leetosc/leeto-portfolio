@@ -3,7 +3,7 @@ layout: '@/templates/BasePost.astro'
 title: Board Game Library
 description: Catalog of my board games with a checkout system
 pubDate: 2021-01-06T00:00:00Z
-imgSrc: '/assets/images/projects/screenshot-leetogames.png'
+imgSrc: '/assets/images/projects/leetogames/screenshot-leetogames.png'
 imgAlt: 'leeto.games'
 ---
 
@@ -34,6 +34,6 @@ I have a decently large collection of board games, and people often came over to
 - Support for multiple users and libraries
 
 
-![leeto.games](/assets/images/projects/screenshot-leetogames2.png 'Leeto.games')
+![leeto.games](/assets/images/projects/leetogames/screenshot-leetogames2.png 'Leeto.games')
 <figcaption align="center">Stats View</figcaption>
 

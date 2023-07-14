@@ -11,7 +11,7 @@ imgAlt: 'docs helper'
 HT Docs Helper is an AI assistant that can answer questions about VEYM documents. The frontend is built with Next.js, ChakraUI and tRPC.  It is powered by Anthropic's Claude AI, and is self-hosted on the VEYM ITApps VM in Azure.
 
 
-![docs helper](/assets/images/projects/screenshot-docshelper1.png 'Docs Helper')
+![docs helper](/assets/images/projects/docshelper/screenshot-docshelper1.png 'Docs Helper')
 <figcaption align="center">Docs Helper</figcaption>
 
 ## Notes

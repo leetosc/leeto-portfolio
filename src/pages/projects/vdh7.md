@@ -3,7 +3,7 @@ layout: '@/templates/BasePost.astro'
 title: VDH7
 description: Website for Đại Hội Về Đất Hứa 7
 pubDate: 2019-07-10T00:00:00Z
-imgSrc: '/assets/images/projects/screenshot-vdh7.png'
+imgSrc: '/assets/images/projects/vdh7/screenshot-vdh7.png'
 imgAlt: 'vdh7'
 ---
 

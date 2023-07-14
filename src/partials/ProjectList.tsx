@@ -12,10 +12,11 @@ import logoVeym from '../../public/assets/images/projectIcons/veym.png';
 import logoVeymBiz from '../../public/assets/images/projectIcons/veymBiz.png';
 import screenshotDbld from '../../public/assets/images/projects/dbliondance/screenshot-dbld1.png';
 import screenshotDbsafe from '../../public/assets/images/projects/dbsafe/screenshot-dbsafe1.png';
+import screenshotHiepsi2 from '../../public/assets/images/projects/hiepsi2/screenshot-hiepsi2-1.png';
+import screenshotHiepsi3 from '../../public/assets/images/projects/hiepsi3/screenshot-hiepsi3.png';
+import screenshotBoardGames from '../../public/assets/images/projects/leetogames/screenshot-leetogames.png';
 import screenshotPPLouisville from '../../public/assets/images/projects/phophilouisville/screenshot-phophilouisville.png';
-import screenshotHiepsi3 from '../../public/assets/images/projects/screenshot-hiepsi3.png';
-import screenshotBoardGames from '../../public/assets/images/projects/screenshot-leetogames.png';
-import screenshotVdh7 from '../../public/assets/images/projects/screenshot-vdh7.png';
+import screenshotVdh7 from '../../public/assets/images/projects/vdh7/screenshot-vdh7.png';
 
 const ProjectList = () => (
   <Section
@@ -199,7 +200,7 @@ const ProjectList = () => (
       />
       <Project
         name="Virtual HTDT"
-        description="Virtual HTDT for Don Bosco Virtual Camp 2021"
+        description="Virtual interactive journey for Doan Don Bosco Virtual Camp 2021"
         link="https://virtualhtdt.donbosco.cc"
         img={{
           src: 'https://virtualhtdt.donbosco.cc/saigon/benthanh.jpg',
@@ -301,6 +302,24 @@ const ProjectList = () => (
             <Tags color={ColorTags.PURPLE}>Gatsby</Tags>
             <Tags color={ColorTags.LIME}>Netlify CMS</Tags>
             <Tags color={ColorTags.ORANGE}>Firebase Functions</Tags>
+            <Tags color={ColorTags.YELLOW}>JavaScript</Tags>
+          </>
+        }
+        pageLink="vdh7"
+      />
+      <Project
+        name="Hiep Si v2"
+        description="Hiep Si Announcements, Resources, Points, and BHT"
+        link="https://v2.hiepsi.donbosco.cc"
+        img={{
+          src: screenshotHiepsi2,
+          alt: 'vdh7',
+        }}
+        category={
+          <>
+            <Tags color={ColorTags.CYAN}>Create React App</Tags>
+            <Tags color={ColorTags.VIOLET}>Bootstrap</Tags>
+            <Tags color={ColorTags.ORANGE}>Firebase</Tags>
             <Tags color={ColorTags.YELLOW}>JavaScript</Tags>
           </>
         }
