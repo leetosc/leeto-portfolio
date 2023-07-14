@@ -12,6 +12,7 @@ import logoVeym from '../../public/assets/images/projectIcons/veym.png';
 import logoVeymBiz from '../../public/assets/images/projectIcons/veymBiz.png';
 import screenshotDbld from '../../public/assets/images/projects/dbliondance/screenshot-dbld1.png';
 import screenshotDbsafe from '../../public/assets/images/projects/dbsafe/screenshot-dbsafe1.png';
+import screenshotGloomhavenhealth from '../../public/assets/images/projects/gloomhavenhealth/screenshot-gloomhavenhealth1.png';
 import screenshotHiepsi2 from '../../public/assets/images/projects/hiepsi2/screenshot-hiepsi2-1.png';
 import screenshotHiepsi3 from '../../public/assets/images/projects/hiepsi3/screenshot-hiepsi3.png';
 import screenshotBoardGames from '../../public/assets/images/projects/leetogames/screenshot-leetogames.png';
@@ -308,12 +309,29 @@ const ProjectList = () => (
         pageLink="vdh7"
       />
       <Project
+        name="Gloomhaven Monster Tracker"
+        description="Helper app for Gloomhaven board game"
+        link="https://gloomhavenhealth.netlify.app"
+        img={{
+          src: screenshotGloomhavenhealth,
+          alt: 'gloomhavenhealth',
+        }}
+        category={
+          <>
+            <Tags color={ColorTags.CYAN}>Create React App</Tags>
+            <Tags color={ColorTags.STONE}>Reactstrap</Tags>
+            <Tags color={ColorTags.YELLOW}>JavaScript</Tags>
+          </>
+        }
+        pageLink="gloomhavenhealth"
+      />
+      <Project
         name="Hiep Si v2"
         description="Hiep Si Announcements, Resources, Points, and BHT"
         link="https://v2.hiepsi.donbosco.cc"
         img={{
           src: screenshotHiepsi2,
-          alt: 'vdh7',
+          alt: 'hiepsi2',
         }}
         category={
           <>
@@ -323,7 +341,7 @@ const ProjectList = () => (
             <Tags color={ColorTags.YELLOW}>JavaScript</Tags>
           </>
         }
-        pageLink="vdh7"
+        pageLink="hiepsi2"
       />
     </div>
   </Section>

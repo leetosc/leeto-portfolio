@@ -11,7 +11,7 @@ imgAlt: 'quiz aide'
 Quiz Aide uses AI to generate multiple choice questions and can export them to the Kahoot format. It is built with Next.js, Tailwind CSS, shadcn UI, and tRPC.  It uses OpenAI Function Calling and is self-hosted on Leeto's personal VM in Oracle Cloud.
 
 
-![docs helper](/assets/images/projects/screenshot-quizaide.png 'Quiz Aide')
+![docs helper](/assets/images/projects/quizaide/screenshot-quizaide.png 'Quiz Aide')
 <figcaption align="center">Quiz Aide</figcaption>
 
 ## Notes
