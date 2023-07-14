@@ -3,7 +3,7 @@ layout: '@/templates/BasePost.astro'
 title: VEYM.net
 description: Official Website of the Vietnamese Eucharistic Youth Movement in the USA
 pubDate: 2022-09-30T00:00:00Z
-imgSrc: '/assets/images/projects/veym/screenshot-veymnet.png'
+imgSrc: '/assets/images/projects/veym/veym1.png'
 imgAlt: 'veym.net'
 ---
 
@@ -14,7 +14,7 @@ The current version of the VEYM.net website launched in October 2022. It is buil
 
 The previous version of the VEYM.net website was built in 2018 using Gatsby, with a Wordpress backend. This replaced a much older Wordpress site with many usability issues.
 
-![veym old](/assets/images/projects/veym/screenshot-veymold.png 'Old VEYM site')
+![veym old](/assets/images/projects/veym/veymold.png 'Old VEYM site')
 <figcaption align="center">Old VEYM.net Site</figcaption>
 
 Due to limitations imposed by the original architecture, over the years it became increasingly hard to maintain and most content changes had to be done manually in the codebase. All changes had to go through the deveopers (me).
