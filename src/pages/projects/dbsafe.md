@@ -3,7 +3,7 @@ layout: '@/templates/BasePost.astro'
 title: DB COVID Screening
 description: COVID Screening App for 2020-2021 school year
 pubDate: 2020-08-25T00:00:00Z
-imgSrc: '/assets/images/posts/screenshot-dbsafe1.png'
+imgSrc: '/assets/images/posts/dbsafe/screenshot-dbsafe1.png'
 imgAlt: 'dbsafe'
 ---
 
@@ -13,7 +13,7 @@ This was a simple app that I threw together for my Doan to screen students for C
 
 The app would show a green or red ticket that the students or parents could screenshot and show the screeners when they came to church. The form was submitted to a Google Sheet, and the screeners could check the list in case the students didn't have a phone or forgot to screenshot the ticket.
 
-![ticket view](/assets/images/posts/screenshot-dbsafe2.png 'Ticket View')
+![ticket view](/assets/images/posts/dbsafe/screenshot-dbsafe2.png 'Ticket View')
 <figcaption align="center">Ticket View</figcaption>
 
 ### Tech Stack
@@ -39,6 +39,6 @@ The app would show a green or red ticket that the students or parents could scre
 - Language switcher (English/Vietnamese) to accommodate parents who did not know English 
 
 
-![Screener View](/assets/images/posts/screenshot-dbsafe3.png 'Screener View')
+![Screener View](/assets/images/posts/dbsafe/screenshot-dbsafe3.png 'Screener View')
 <figcaption align="center">Screener View</figcaption>
 

@@ -3,11 +3,11 @@ import { Project } from '@/components/Project/Project';
 import { Section } from '@/components/Section/Section';
 import { ColorTags, Tags } from '@/components/Tags/Tags';
 
-import screenshotDbld from '../../public/assets/images/posts/screenshot-dbld1.png';
-import screenshotDbsafe from '../../public/assets/images/posts/screenshot-dbsafe1.png';
+import screenshotDbld from '../../public/assets/images/posts/dbliondance/screenshot-dbld1.png';
+import screenshotDbsafe from '../../public/assets/images/posts/dbsafe/screenshot-dbsafe1.png';
+import screenshotPPLouisville from '../../public/assets/images/posts/phophilouisville/screenshot-phophilouisville.png';
 import screenshotHiepsi3 from '../../public/assets/images/posts/screenshot-hiepsi3.png';
 import screenshotBoardGames from '../../public/assets/images/posts/screenshot-leetogames.png';
-import screenshotPPLouisville from '../../public/assets/images/posts/screenshot-phophilouisville.png';
 import screenshotVdh7 from '../../public/assets/images/posts/screenshot-vdh7.png';
 import logoDocsHelper from '../../public/assets/images/projectIcons/docsHelper.png';
 import logoHtHero from '../../public/assets/images/projectIcons/htHero.png';
@@ -179,7 +179,7 @@ const ProjectList = () => (
             <Tags color={ColorTags.BLUE}>TypeScript</Tags>
           </>
         }
-        pageLink="dbhiepsi"
+        pageLink="hiepsi3"
       />
       <Project
         name="Wedding Website"
