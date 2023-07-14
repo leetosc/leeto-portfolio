@@ -15,7 +15,15 @@ const Hero = () => (
         }
         description={
           <>
-            Software Engineer at New Relic, and Development Lead for the{' '}
+            Software Engineer at{' '}
+            <a
+              href="https://newrelic.com/"
+              target="_blank"
+              className="text-cyan-400 hover:underline"
+            >
+              New Relic
+            </a>
+            , and Development Lead for the{' '}
             <a
               href="https://itapps.veym.net"
               target="_blank"

@@ -14,6 +14,12 @@ My uncle owns a Pho restaurant in Louisville, Kentucky called Pho Phi. He wanted
 ![Menu](/assets/images/posts/screenshot-phophilouisville2.png 'Menu')
 <figcaption align="center">Restaurant Menu</figcaption>
 
+
+The site has around 1000 monthly active users.
+
+![MAU](/assets/images/posts/phophiMAU.png)
+<figcaption align="center">Active Users</figcaption>
+
 ### Tech Stack
 
 - Gatsby

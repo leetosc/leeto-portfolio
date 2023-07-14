@@ -5,6 +5,7 @@ import { ColorTags, Tags } from '@/components/Tags/Tags';
 
 import screenshotDbld from '../../public/assets/images/posts/screenshot-dbld1.png';
 import screenshotDbsafe from '../../public/assets/images/posts/screenshot-dbsafe1.png';
+import screenshotHiepsi3 from '../../public/assets/images/posts/screenshot-hiepsi3.png';
 import screenshotBoardGames from '../../public/assets/images/posts/screenshot-leetogames.png';
 import screenshotPPLouisville from '../../public/assets/images/posts/screenshot-phophilouisville.png';
 import screenshotVdh7 from '../../public/assets/images/posts/screenshot-vdh7.png';
@@ -161,6 +162,24 @@ const ProjectList = () => (
             <Tags color={ColorTags.BLUE}>TypeScript</Tags>
           </>
         }
+      />
+      <Project
+        name="Hiep Si v3"
+        description="Hiep Si Announcements, Resources, Points, and BHT"
+        link="https://hiepsi.donbosco.cc"
+        img={{
+          src: screenshotHiepsi3,
+          alt: 'Hiep Si',
+        }}
+        category={
+          <>
+            <Tags color={ColorTags.SLATE}>Next.js</Tags>
+            <Tags color={ColorTags.EMERALD}>ChakraUI</Tags>
+            <Tags color={ColorTags.VIOLET}>Strapi</Tags>
+            <Tags color={ColorTags.BLUE}>TypeScript</Tags>
+          </>
+        }
+        pageLink="dbhiepsi"
       />
       <Project
         name="Wedding Website"
