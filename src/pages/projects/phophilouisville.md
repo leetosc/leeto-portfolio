@@ -3,7 +3,7 @@ layout: '@/templates/BasePost.astro'
 title: Pho Phi Louisville
 description: Website for Pho Phi Restaurant in Louisville, Kentucky
 pubDate: 2019-12-26T00:00:00Z
-imgSrc: '/assets/images/posts/phophilouisville/screenshot-phophilouisville.png'
+imgSrc: '/assets/images/projects/phophilouisville/screenshot-phophilouisville.png'
 imgAlt: 'phophi'
 ---
 
@@ -11,13 +11,13 @@ imgAlt: 'phophi'
 
 My uncle owns a Pho restaurant in Louisville, Kentucky called Pho Phi. He wanted a website for his restaurant with basic info as well as job postings and asked me to build one for him. I built and hosted the site using free services and handed it off to him to manage the content.
 
-![Menu](/assets/images/posts/phophilouisville/screenshot-phophilouisville2.png 'Menu')
+![Menu](/assets/images/projects/phophilouisville/screenshot-phophilouisville2.png 'Menu')
 <figcaption align="center">Restaurant Menu</figcaption>
 
 
 The site has around 1000 monthly active users.
 
-![MAU](/assets/images/posts/phophilouisville/phophiMAU.png)
+![MAU](/assets/images/projects/phophilouisville/phophiMAU.png)
 <figcaption align="center">Active Users</figcaption>
 
 ### Tech Stack

@@ -11,7 +11,7 @@ imgAlt: 'ht hero'
 HT Hero can generate ideas for lessons, games, and activities for Sinh Hoat. The frontend is built with Next.js, Tailwind CSS and tRPC.  It uses OpenAI and is self-hosted on the VEYM ITApps VM in Azure.
 
 
-![docs helper](/assets/images/posts/screenshot-hthero.png 'HT Hero')
+![docs helper](/assets/images/projects/screenshot-hthero.png 'HT Hero')
 <figcaption align="center">HT Hero</figcaption>
 
 ## Notes

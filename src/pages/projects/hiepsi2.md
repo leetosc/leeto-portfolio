@@ -2,8 +2,8 @@
 layout: '@/templates/BasePost.astro'
 title: Hiep Si v2
 description: Site for announcements, resources, and points tracking for Don Bosco Hiep Si
-pubDate: 2021-08-25T00:00:00Z
-imgSrc: '/assets/images/posts/screenshot-hiepsi3.png'
+pubDate: 2017-08-13T00:00:00Z
+imgSrc: '/assets/images/projects/hiepsi2/screenshot-hiepsi2-1.png'
 imgAlt: 'hiepsi2'
 ---
 

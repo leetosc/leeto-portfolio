@@ -3,12 +3,6 @@ import { Project } from '@/components/Project/Project';
 import { Section } from '@/components/Section/Section';
 import { ColorTags, Tags } from '@/components/Tags/Tags';
 
-import screenshotDbld from '../../public/assets/images/posts/dbliondance/screenshot-dbld1.png';
-import screenshotDbsafe from '../../public/assets/images/posts/dbsafe/screenshot-dbsafe1.png';
-import screenshotPPLouisville from '../../public/assets/images/posts/phophilouisville/screenshot-phophilouisville.png';
-import screenshotHiepsi3 from '../../public/assets/images/posts/screenshot-hiepsi3.png';
-import screenshotBoardGames from '../../public/assets/images/posts/screenshot-leetogames.png';
-import screenshotVdh7 from '../../public/assets/images/posts/screenshot-vdh7.png';
 import logoDocsHelper from '../../public/assets/images/projectIcons/docsHelper.png';
 import logoHtHero from '../../public/assets/images/projectIcons/htHero.png';
 import logoMembersPortal from '../../public/assets/images/projectIcons/membersPortal.png';
@@ -16,6 +10,12 @@ import logoQuizAide from '../../public/assets/images/projectIcons/quizaide.png';
 import logoUrlShortener from '../../public/assets/images/projectIcons/urlshortener.png';
 import logoVeym from '../../public/assets/images/projectIcons/veym.png';
 import logoVeymBiz from '../../public/assets/images/projectIcons/veymBiz.png';
+import screenshotDbld from '../../public/assets/images/projects/dbliondance/screenshot-dbld1.png';
+import screenshotDbsafe from '../../public/assets/images/projects/dbsafe/screenshot-dbsafe1.png';
+import screenshotPPLouisville from '../../public/assets/images/projects/phophilouisville/screenshot-phophilouisville.png';
+import screenshotHiepsi3 from '../../public/assets/images/projects/screenshot-hiepsi3.png';
+import screenshotBoardGames from '../../public/assets/images/projects/screenshot-leetogames.png';
+import screenshotVdh7 from '../../public/assets/images/projects/screenshot-vdh7.png';
 
 const ProjectList = () => (
   <Section

@@ -3,7 +3,7 @@ layout: '@/templates/BasePost.astro'
 title: Hiep Si v3
 description: Site for announcements, resources, and points tracking for Don Bosco Hiep Si and Nghia Si
 pubDate: 2021-08-25T00:00:00Z
-imgSrc: '/assets/images/posts/screenshot-hiepsi3.png'
+imgSrc: '/assets/images/projects/screenshot-hiepsi3.png'
 imgAlt: 'hiepsi3'
 ---
 

@@ -3,7 +3,7 @@ layout: '@/templates/BasePost.astro'
 title: Wedding Website
 description: My wedding website
 pubDate: 2021-12-18T00:00:00Z
-imgSrc: '/assets/images/posts/screenshot-dknlovestory.png'
+imgSrc: '/assets/images/projects/screenshot-dknlovestory.png'
 imgAlt: 'dknlovestory'
 ---
 
@@ -20,7 +20,7 @@ I made this site for my wedding in 2021 using Gatsby. I used it to share info ab
 - Searchable seating chart for the reception
 
 
-![dknlovestory](/assets/images/posts/screenshot-dknlovestory.png 'Wedding Website')
+![dknlovestory](/assets/images/projects/screenshot-dknlovestory.png 'Wedding Website')
 <figcaption align="center">Wedding Website</figcaption>
 
 ## Notes
