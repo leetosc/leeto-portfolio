@@ -13,6 +13,7 @@ import logoVeymBiz from '../../public/assets/images/projectIcons/veymBiz.png';
 import screenshotDbld from '../../public/assets/images/projects/dbliondance/screenshot-dbld1.png';
 import screenshotDbsafe from '../../public/assets/images/projects/dbsafe/screenshot-dbsafe1.png';
 import screenshotGloomhavenhealth from '../../public/assets/images/projects/gloomhavenhealth/screenshot-gloomhavenhealth1.png';
+import screenshotHiepsi1 from '../../public/assets/images/projects/hiepsi1/home.png';
 import screenshotHiepsi2 from '../../public/assets/images/projects/hiepsi2/screenshot-hiepsi2-1.png';
 import screenshotHiepsi3 from '../../public/assets/images/projects/hiepsi3/screenshot-hiepsi3.png';
 import screenshotBoardGames from '../../public/assets/images/projects/leetogames/screenshot-leetogames.png';
@@ -342,6 +343,24 @@ const ProjectList = () => (
           </>
         }
         pageLink="hiepsi2"
+      />
+      <Project
+        name="Hiep Si v1"
+        description="First ever project - Hiep Si Announcements, Resources, Points, and BHT"
+        link=""
+        img={{
+          src: screenshotHiepsi1,
+          alt: 'hiepsi1',
+        }}
+        category={
+          <>
+            <Tags color={ColorTags.EMERALD}>Node.js</Tags>
+            <Tags color={ColorTags.GREEN}>Express</Tags>
+            <Tags color={ColorTags.VIOLET}>Bootstrap</Tags>
+            <Tags color={ColorTags.YELLOW}>JavaScript</Tags>
+          </>
+        }
+        pageLink="hiepsi1"
       />
     </div>
   </Section>
