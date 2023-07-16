@@ -337,7 +337,7 @@ const ProjectList = () => (
         }}
         category={
           <>
-            <Tags color={ColorTags.CYAN}>Create React App</Tags>
+            <Tags color={ColorTags.CYAN}>React</Tags>
             <Tags color={ColorTags.STONE}>Reactstrap</Tags>
             <Tags color={ColorTags.YELLOW}>JavaScript</Tags>
           </>
@@ -354,7 +354,7 @@ const ProjectList = () => (
         }}
         category={
           <>
-            <Tags color={ColorTags.CYAN}>Create React App</Tags>
+            <Tags color={ColorTags.CYAN}>React</Tags>
             <Tags color={ColorTags.VIOLET}>Bootstrap</Tags>
             <Tags color={ColorTags.ORANGE}>Firebase</Tags>
             <Tags color={ColorTags.YELLOW}>JavaScript</Tags>

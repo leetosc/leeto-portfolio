@@ -3,7 +3,7 @@ layout: '@/templates/BasePost.astro'
 title: Deploying Docs Helper to ITApps VM
 description: Steps taken to self-host a Next.js app.
 pubDate: 2023-07-05T00:00:00Z
-imgSrc: '/assets/images/image-post8.jpeg'
+imgSrc: '/assets/images/posts/deploying-docs-helper/image-post8.jpeg'
 imgAlt: 'computer'
 ---
 
