@@ -12,6 +12,7 @@ import logoVeym from '../../public/assets/images/projectIcons/veym.png';
 import logoVeymBiz from '../../public/assets/images/projectIcons/veymBiz.png';
 import screenshotDbld from '../../public/assets/images/projects/dbliondance/screenshot-dbld1.png';
 import screenshotDbsafe from '../../public/assets/images/projects/dbsafe/screenshot-dbsafe1.png';
+import dogsFedTracker from '../../public/assets/images/projects/dogsFedTracker/device.jpg';
 import screenshotGloomhavenhealth from '../../public/assets/images/projects/gloomhavenhealth/screenshot-gloomhavenhealth1.png';
 import screenshotHiepsi1 from '../../public/assets/images/projects/hiepsi1/home.png';
 import screenshotHiepsi2 from '../../public/assets/images/projects/hiepsi2/screenshot-hiepsi2-1.png';
@@ -310,6 +311,23 @@ const ProjectList = () => (
         pageLink="vdh7"
       />
       <Project
+        name="Dogs Fed Time Tracker"
+        description="System to track when my dogs were fed"
+        link=""
+        img={{
+          src: dogsFedTracker,
+          alt: 'dogsFedTracker',
+        }}
+        category={
+          <>
+            <Tags color={ColorTags.ROSE}>Raspberry Pi</Tags>
+            <Tags color={ColorTags.AMBER}>Python</Tags>
+            <Tags color={ColorTags.INDIGO}>Directus</Tags>
+          </>
+        }
+        pageLink="dogs-fed-tracker"
+      />
+      <Project
         name="Gloomhaven Monster Tracker"
         description="Helper app for Gloomhaven board game"
         link="https://gloomhavenhealth.netlify.app"
@@ -357,6 +375,7 @@ const ProjectList = () => (
             <Tags color={ColorTags.EMERALD}>Node.js</Tags>
             <Tags color={ColorTags.GREEN}>Express</Tags>
             <Tags color={ColorTags.VIOLET}>Bootstrap</Tags>
+            <Tags color={ColorTags.BLUE}>jQuery</Tags>
             <Tags color={ColorTags.YELLOW}>JavaScript</Tags>
           </>
         }
