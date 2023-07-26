@@ -11,6 +11,12 @@ Deploy a Next.js application to the VM, run it as a service, and automatically b
 
 This document outlines the steps taken to deploy the HT Docs Helper application on the ITApps Virtual Machine (VM). This can serve as a future reference for similar deployments.
 
+## Motivation
+
+In most cases it is easiest to deploy a Next.js app to Vercel. They have a very generous free tier and have an extremely nice developer experience. It takes less than a minute to get an app deployed with all of features that Vercel provides. 
+
+However, one limitation of the free tier is that the Serverless Function execution time is limited to 10 seconds. For AI uses, this is usually not enough, so I had to find an alternative. A quick solution was to host it on our VM and get around the function timeout. 
+
 ## Initial Setup
 
 1. Clone the Repository: First, clone the required repository to your local system.
