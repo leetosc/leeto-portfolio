@@ -315,9 +315,9 @@ const ProjectList = () => (
         pageLink="dbld"
       />
       <Project
-        name="VDH7"
+        name="VDH7 2020"
         description="Informational website for Đại Hội Về Đất Hứa 7 which unfortunately was cancelled due to COVID-19"
-        link="https://vdh7.veym.net"
+        link="https://2020.vdh7.veym.net"
         img={{
           src: screenshotVdh7,
           alt: 'vdh7',
