@@ -8,6 +8,7 @@ import logoHtHero from '../../public/assets/images/projectIcons/htHero.png';
 import logoMembersPortal from '../../public/assets/images/projectIcons/membersPortal.png';
 import logoQuizAide from '../../public/assets/images/projectIcons/quizaide.png';
 import logoUrlShortener from '../../public/assets/images/projectIcons/urlshortener.png';
+import logoVdh72023 from '../../public/assets/images/projectIcons/vdh7logo.png';
 import logoVeym from '../../public/assets/images/projectIcons/veym.png';
 import logoVeymBiz from '../../public/assets/images/projectIcons/veymBiz.png';
 import screenshotDbld from '../../public/assets/images/projects/dbliondance/screenshot-dbld1.png';
@@ -66,6 +67,27 @@ const ProjectList = () => (
             <Tags color={ColorTags.BLUE}>TypeScript</Tags>
           </>
         }
+      />
+      <Project
+        name="VDH7 2023 Site"
+        description="Registration and info site for Đại Hội Về Đất Hứa 7"
+        link="https://vdh7.veym.net"
+        img={{
+          src: logoVdh72023,
+          alt: 'VDH7',
+        }}
+        category={
+          <>
+            <Tags color={ColorTags.SLATE}>Next.js</Tags>
+            <Tags color={ColorTags.EMERALD}>ChakraUI</Tags>
+            <Tags color={ColorTags.PURPLE}>Stripe</Tags>
+            <Tags color={ColorTags.VIOLET}>tRPC</Tags>
+            <Tags color={ColorTags.CYAN}>Prisma</Tags>
+            <Tags color={ColorTags.LIME}>Next Auth</Tags>
+            <Tags color={ColorTags.BLUE}>TypeScript</Tags>
+          </>
+        }
+        // pageLink="docs-helper"
       />
       <Project
         name="VEYM Docs Helper"
