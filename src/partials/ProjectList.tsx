@@ -12,6 +12,7 @@ import logoUrlShortener from '../../public/assets/images/projectIcons/urlshorten
 import logoVdh72023 from '../../public/assets/images/projectIcons/vdh7logo.png';
 import logoVeym from '../../public/assets/images/projectIcons/veym.png';
 import logoVeymBiz from '../../public/assets/images/projectIcons/veymBiz.png';
+import logoYtSummarizer from '../../public/assets/images/projectIcons/ytSummarizer.png';
 import screenshotDbld from '../../public/assets/images/projects/dbliondance/screenshot-dbld1.png';
 import screenshotDbsafe from '../../public/assets/images/projects/dbsafe/screenshot-dbsafe1.png';
 import dogsFedTracker from '../../public/assets/images/projects/dogsFedTracker/device.jpg';
@@ -110,6 +111,27 @@ const ProjectList = () => (
           </>
         }
         // pageLink="docs-helper"
+      />
+      <Project
+        name="YT Summarizer"
+        description="Summarize YouTube videos"
+        link="https://yt.leeto.dev"
+        img={{
+          src: logoYtSummarizer,
+          alt: 'ytSummarizer',
+        }}
+        category={
+          <>
+            <Tags color={ColorTags.SLATE}>Next.js</Tags>
+            <Tags color={ColorTags.SKY}>Tailwind CSS</Tags>
+            <Tags color={ColorTags.AMBER}>AI</Tags>
+            <Tags color={ColorTags.VIOLET}>tRPC</Tags>
+            <Tags color={ColorTags.CYAN}>Prisma</Tags>
+            <Tags color={ColorTags.LIME}>Next Auth</Tags>
+            <Tags color={ColorTags.BLUE}>TypeScript</Tags>
+          </>
+        }
+        // pageLink="ht-hero"
       />
       <Project
         name="VEYM Docs Helper"
