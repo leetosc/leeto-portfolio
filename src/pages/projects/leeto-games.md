@@ -10,6 +10,8 @@ imgAlt: 'leeto.games'
 This was my first major fullstack side project and my first time working with a lot of the tech stack. I learned a lot about the various technologies from building this app and it has greatly influenced my software development path since. 
 Looking back, the code and overall architecture could be improved in many ways, but I am still proud of what I was able to accomplish with my limited knowledge at the time, and building this project was a great learning experience.
 
+#### Update 2023
+Board Game Atlas, the company that was providing the API for this project, has gone out of business. As a result, no new games can be added. 
 
 ### Motivation
 
