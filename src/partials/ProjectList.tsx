@@ -114,7 +114,7 @@ const ProjectList = () => (
       />
       <Project
         name="YT Summarizer"
-        description="Summarize YouTube videos"
+        description="Summarize YouTube videos using AI"
         link="https://yt.leeto.dev"
         img={{
           src: logoYtSummarizer,
