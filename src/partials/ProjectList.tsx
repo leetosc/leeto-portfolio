@@ -4,6 +4,7 @@ import { Section } from '@/components/Section/Section';
 import { ColorTags, Tags } from '@/components/Tags/Tags';
 
 import logoDocsHelper from '../../public/assets/images/projectIcons/docsHelper.png';
+import hiepsi4 from '../../public/assets/images/projectIcons/hiepsiv4.png';
 import logoHtHero from '../../public/assets/images/projectIcons/htHero.png';
 import logoMembersPortal from '../../public/assets/images/projectIcons/membersPortal.png';
 import logoQuizAide from '../../public/assets/images/projectIcons/quizaide.png';
@@ -68,6 +69,7 @@ const ProjectList = () => (
           </>
         }
       />
+
       <Project
         name="VDH7 2023 Site"
         description="Registration and info site for Đại Hội Về Đất Hứa 7"
@@ -82,7 +84,27 @@ const ProjectList = () => (
             <Tags color={ColorTags.EMERALD}>ChakraUI</Tags>
             <Tags color={ColorTags.PURPLE}>Stripe</Tags>
             <Tags color={ColorTags.VIOLET}>tRPC</Tags>
-            <Tags color={ColorTags.CYAN}>Prisma</Tags>
+            <Tags color={ColorTags.INDIGO}>Directus</Tags>
+            <Tags color={ColorTags.LIME}>Next Auth</Tags>
+            <Tags color={ColorTags.BLUE}>TypeScript</Tags>
+          </>
+        }
+        // pageLink="docs-helper"
+      />
+      <Project
+        name="Hiep Si v4"
+        description="Points, attendance, announcements, resources for Hiep Si"
+        link="https://hiepsi.donbosco.cc"
+        img={{
+          src: hiepsi4,
+          alt: 'hiepsi4',
+        }}
+        category={
+          <>
+            <Tags color={ColorTags.SLATE}>Next.js</Tags>
+            <Tags color={ColorTags.EMERALD}>ChakraUI</Tags>
+            <Tags color={ColorTags.VIOLET}>tRPC</Tags>
+            <Tags color={ColorTags.INDIGO}>Directus</Tags>
             <Tags color={ColorTags.LIME}>Next Auth</Tags>
             <Tags color={ColorTags.BLUE}>TypeScript</Tags>
           </>
@@ -192,7 +214,7 @@ const ProjectList = () => (
       <Project
         name="Hiep Si v3"
         description="Hiep Si Announcements, Resources, Points, and BHT"
-        link="https://hiepsi.donbosco.cc"
+        link="https://v3.hiepsi.donbosco.cc"
         img={{
           src: screenshotHiepsi3,
           alt: 'Hiep Si',
