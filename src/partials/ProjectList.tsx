@@ -124,6 +124,7 @@ const ProjectList = () => (
           <>
             <Tags color={ColorTags.SLATE}>Next.js</Tags>
             <Tags color={ColorTags.SKY}>Tailwind CSS</Tags>
+            <Tags color={ColorTags.GRAY}>shadcn UI</Tags>
             <Tags color={ColorTags.AMBER}>OpenAI</Tags>
             <Tags color={ColorTags.VIOLET}>tRPC</Tags>
             <Tags color={ColorTags.CYAN}>Prisma</Tags>
