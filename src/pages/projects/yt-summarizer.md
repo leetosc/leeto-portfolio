@@ -2,7 +2,7 @@
 layout: '@/templates/BasePost.astro'
 title: Youtube Summarizer
 description: Summarize Youtube videos using AI
-pubDate: 2023-06-25T00:00:00Z
+pubDate: 2023-12-10T00:00:00Z
 imgSrc: '/assets/images/projectIcons/ytSummarizer.png'
 imgAlt: 'YT Summarizer'
 ---
