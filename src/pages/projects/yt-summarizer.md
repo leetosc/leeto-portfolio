@@ -16,6 +16,7 @@ Generate summaries of Youtube videos using AI. Built with Next.js, Tailwind CSS,
 
 ### Features
 - Generate summaries of Youtube videos
+- Generate audio
 - Save History
 - Share summaries with a link
 
