@@ -132,7 +132,7 @@ const ProjectList = () => (
             <Tags color={ColorTags.BLUE}>TypeScript</Tags>
           </>
         }
-        // pageLink="ht-hero"
+        pageLink="yt-summarizer"
       />
       <Project
         name="VEYM Docs Helper"
