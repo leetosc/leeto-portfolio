@@ -11,7 +11,7 @@ This was my first major fullstack side project and my first time working with a 
 Looking back, the code and overall architecture could be improved in many ways, but I am still proud of what I was able to accomplish with my limited knowledge at the time, and building this project was a great learning experience.
 
 #### Update 2023
-Board Game Atlas, the company that was providing the API for this project, has gone out of business. As a result, no new games can be added. 
+Board Game Atlas, the company that was providing the API for this project, has gone out of business and the API is no longer available. As a result, no new games can be added. 
 
 ### Motivation
 
