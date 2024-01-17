@@ -26,11 +26,11 @@ https://create.t3.gg/en/installation
 pnpm create t3-app@latest
 ```
 
-side note - using pnpm package manager https://pnpm.io/next/installation
+side note - using `pnpm` package manager https://pnpm.io/next/installation
 
 ## Install dependencies
 
-Look at package.json in existing repo
+Look at `package.json` in existing repo
 
 Install dependencies that we think we will use - can add more later as we need
 
@@ -55,8 +55,8 @@ Copied over the next-auth config from veym-biz-directory
 
 ### Environment Variables
 
-defined in `env.js`
-copied over from existing project
+- defined in `env.js`
+- copied over from existing project
 
 ### Azure AD App Registration
 
@@ -82,12 +82,14 @@ Add a custom extension to Directus instance on ITApps VM to auto-generate a type
   - use `chown` to make sure the user has access
 - restart the directus instance
 
+Note: whenever changes are made to the Directus schema (adding collections, fields, etc), the types file will need to be regenerated and copied into the repo.
+
 ## Deploy to Vercel
 - set up new github repo: https://github.com/veym-it/veym-library-t3
 - invite collaborators
 - create new vercel project
   - add env vars
-- update DNS records for veym.app domain - Google Domains
+- update DNS records for `veym.app` domain - Google Domains
 
 ## Random fixes
 - parseHtml
@@ -95,11 +97,11 @@ Add a custom extension to Directus instance on ITApps VM to auto-generate a type
   - fixed with `pnpm i domhandler@^4`
 - next.js v14 bug - call stack exceeded in vercel build
   - build works locally 🤷‍♀️
-  - downgraded to v13 and it works
+  - downgraded to `v13` and it works
 
 ## Development tips
 
-Flow of doing stuff
+#### Flow of doing stuff
 - create a procedure 
   - in a router
   - add the inputs and types
@@ -111,7 +113,7 @@ Flow of doing stuff
   - you have access to the user (if any) in the `ctx` object
     - can derive user info without having to pass it in as an input
 - call the procedure in the frontend
-  - import from api
+  - import from `api`
   - uses the same interface as react-query
     - `useQuery` for getting data
     - `useMutation` for sending something to the server
