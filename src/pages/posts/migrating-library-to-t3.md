@@ -1,7 +1,7 @@
 ---
 layout: '@/templates/BasePost.astro'
 title: Migrating VEYM Library to T3 Stack
-description: Steps taken migrate the VEYM Library app to our version of the T3 stack.
+description: Steps taken to migrate the VEYM Library app to our version of the T3 stack.
 pubDate: 2024-01-15T00:00:00Z
 imgSrc: '/assets/images/posts/migrating-library-t3/librarymigration.png'
 imgAlt: 'migration'
