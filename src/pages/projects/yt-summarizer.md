@@ -8,7 +8,7 @@ imgAlt: 'YT Summarizer'
 ---
 
 
-Generate summaries of Youtube videos using AI. Built with Next.js, Tailwind CSS, and tRPC.  It is powered by GPT-4 and Bard, and is self-hosted on a VM in Oracle Cloud.
+Generate summaries of Youtube videos using AI. Built with Next.js, Tailwind CSS, and tRPC.  It is powered by GPT-4 and Gemini, and is self-hosted on a VM in Oracle Cloud.
 
 
 ![YT Summarizer](/assets/images/projects/ytSummarizer/screenshot-ytsummarizer1.png 'YT Summarizer')

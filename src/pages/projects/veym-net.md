@@ -48,4 +48,4 @@ Directus is an open-source headless CMS that provides a user-friendly UI for con
 
 #### Vercel
 
-Vercel is a cloud platform for static sites and serverless functions. It provides a great developer experience with features like automatic deployments, preview deployments, and serverless functions. It is easy to integrate with Github and the free tier is very generous.
+Vercel is a cloud platform for hosting web apps. As the creators of Next.js, the experience of hosting a Next.js app on the platform is extremely smooth. It provides a great developer experience with features like automatic deployments, preview deployments, and serverless functions. It is easy to integrate with Github and the free tier is very generous.

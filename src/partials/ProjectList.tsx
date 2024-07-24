@@ -9,7 +9,7 @@ import logoHtHero from '../../public/assets/images/projectIcons/htHero.png';
 import logoMembersPortal from '../../public/assets/images/projectIcons/membersPortal.png';
 import logoQuizAide from '../../public/assets/images/projectIcons/quizaide.png';
 import logoUrlShortener from '../../public/assets/images/projectIcons/urlshortener.png';
-import logoVdh72023 from '../../public/assets/images/projectIcons/vdh7logo.png';
+import logoVdh72024 from '../../public/assets/images/projectIcons/vdh7logo.png';
 import logoVeym from '../../public/assets/images/projectIcons/veym.png';
 import logoVeymBiz from '../../public/assets/images/projectIcons/veymBiz.png';
 import logoYtSummarizer from '../../public/assets/images/projectIcons/ytSummarizer.png';
@@ -72,11 +72,11 @@ const ProjectList = () => (
       />
 
       <Project
-        name="VDH7 2023 Site"
+        name="VDH7 2024 Site"
         description="Registration and info site for Đại Hội Về Đất Hứa 7"
         link="https://vdh7.veym.net"
         img={{
-          src: logoVdh72023,
+          src: logoVdh72024,
           alt: 'VDH7',
         }}
         category={
@@ -361,7 +361,7 @@ const ProjectList = () => (
       />
       <Project
         name="VDH7 2020"
-        description="Informational website for Đại Hội Về Đất Hứa 7 which unfortunately was cancelled due to COVID-19"
+        description="Informational website for Đại Hội Về Đất Hứa 7 planned for July 2020 which unfortunately was cancelled due to COVID-19"
         link="https://2020.vdh7.veym.net"
         img={{
           src: screenshotVdh7,
