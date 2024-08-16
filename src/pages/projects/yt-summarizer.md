@@ -39,3 +39,8 @@ When OpenAI announced the gpt-4-turbo model with its 128k-token context window, 
 As of 2023, the Google Gemini API is free, so it is used to provide a free tier for non-authenticated users. It has a ~30k token limit, so I limited it to videos under 30 minutes.
 
 The core functionality of the app was built in one day. I am getting pretty proficient with the T3 stack. It makes it very easy to bootstrap a fullstack app quickly.
+
+## Update August 2024
+
+Starting around August 5, 2024, it seems like Youtube is blocking requests from the Oracle VMs, as well as AWS, which breaks the ability to get the transcript of the video. I noticed the app was broken in prod, but was working locally on my machine. 
+I created a basic Next.js app with an API route that gets the transcript, and deployed the app to Cloudflare Pages. This fixes the problem for now.
