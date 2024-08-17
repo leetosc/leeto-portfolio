@@ -43,4 +43,7 @@ The core functionality of the app was built in one day. I am getting pretty prof
 ## Update August 2024
 
 Starting around August 5, 2024, it seems like Youtube is blocking requests from the Oracle VMs, as well as AWS, which breaks the ability to get the transcript of the video. I noticed the app was broken in prod, but was working locally on my machine. 
-I created a basic Next.js app with an API route that gets the transcript, and deployed the app to Cloudflare Pages. This fixes the problem for now.
+~~I created a basic Next.js app with an API route that gets the transcript, and deployed the app to Cloudflare Pages. This fixes the problem for now.~~
+Youtube seems to be blocking requests from these IPs as well. 
+
+Followed an example from this [issue](https://github.com/Kakulukian/youtube-transcript/issues/11#issuecomment-2272608479) and used the `youtubei.js` package to get the transcript. 
