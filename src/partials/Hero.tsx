@@ -17,11 +17,11 @@ const Hero = () => (
           <>
             Software Engineer at{' '}
             <a
-              href="https://newrelic.com/"
+              href="https://www.heb.com/"
               target="_blank"
-              className="text-cyan-400 hover:underline"
+              className="text-red-400 hover:underline"
             >
-              New Relic
+              H-E-B
             </a>
             , and Development Lead for the{' '}
             <a
@@ -36,7 +36,7 @@ const Hero = () => (
         }
         avatar={
           <img
-            className="h-80 w-80"
+            className="size-80"
             src={avatarImage}
             alt="Avatar image"
             loading="lazy"
