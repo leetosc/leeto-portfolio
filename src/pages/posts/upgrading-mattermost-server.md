@@ -55,7 +55,7 @@ To transfer our data, I used Mattermost’s command-line tool, `mmctl`, which I 
 Since the export file was quite large (~8 GB), I had to manually copy it from the server’s export directory at /opt/mattermost/mattermost/data/export.
 
 ### Importing Data into the New Instance
-The latest version of `mmctl` included a `--local` option, making it easier to import large files directly from the server. I logged into the new Mattermost container and made some adjustments:
+The latest version of `mmctl` included a `--local` option, making it easier to import large files directly from the server. I `docker exec` into the new Mattermost container and made some adjustments:
 
 1. **Editing `config.json`**: To enable local mode for `mmctl`, I had to modify the config.json file in the new instance.
 
