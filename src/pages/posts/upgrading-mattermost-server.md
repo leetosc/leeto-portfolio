@@ -83,8 +83,7 @@ Once the server was up and running, there were a few more steps to complete the 
 2. **Recreating Webhook Endpoints**: The webhook endpoints didn’t get transferred during the export, so I recreated them and updated the apps that used those endpoints.
 
 3. **Setting Up SMTP for Password Resets**: All users needed to reset their passwords to log into the new instance. I had been using my personal Outlook account for SMTP, but Microsoft had disabled Basic Auth, causing the email sending to fail.
-
-To fix this, I set up a Mailgun account and configured SMTP using the `nguyen.casa` domain. In hindsight, I should have done this earlier for all of my apps that utilize SMTP, but the Outlook setup had worked until now.
+    -  To fix this, I set up a Mailgun account and configured SMTP using the `nguyen.casa` domain. In hindsight, I should have done this earlier for all of my apps that utilize SMTP, but the Outlook setup had worked until now.
 
 ---
 
