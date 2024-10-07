@@ -42,7 +42,7 @@ To transfer our data, I used Mattermost’s command-line tool, `mmctl`, which I 
    I authenticated into the old Mattermost instance to generate an export file. This included our chat history and attachments.
    
 ```bash
-   ./mmctl auth login https://mattermost.nguyen.casa --name Family --username denny --password-file passwordfile.txt
+./mmctl auth login https://mattermost.nguyen.casa --name Family --username denny --password-file passwordfile.txt
 ```
 
 2. **Creating the Export**: I created the export, ensuring that attachments were included (though in newer versions, this step is handled automatically).
