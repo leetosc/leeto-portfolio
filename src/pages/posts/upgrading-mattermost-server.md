@@ -91,3 +91,11 @@ Once the server was up and running, there were a few more steps to complete the 
 After setting up the latest version of Mattermost and completing the migration, we now have a robust, self-hosted communication system without any upgrade popups or disruptions. This process helped me refine my skills in managing self-hosted solutions, troubleshooting server configurations, and handling large-scale data migrations. The Mailgun SMTP setup has also improved the reliability of email services for my other projects.
 
 In the end, I’m glad to have found a solid solution that meets my family's needs while giving me an opportunity to apply and grow my technical expertise.
+
+
+---
+
+### Update: fix YouTube thumbnails
+YouTube recently made changes that made it harder to get video info. This is probably similar to the issue that I had with the Summarizer app. A [fix](https://github.com/mattermost/mattermost/issues/16429#issuecomment-2402988443) was implemented in mattermost `v9.11.3`. 
+
+I created an [issue](https://github.com/remiheens/mattermost-docker-arm/issues/68) in the `mattermost-docker-arm` repo for the maintainer to update the image and generate a new release. After pulling the latest image, the thumbnails are now working again.
