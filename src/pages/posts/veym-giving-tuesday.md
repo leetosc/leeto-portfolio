@@ -11,7 +11,7 @@ imgAlt: "givingTuesday"
 
 ## Background
 
-For the past few years, VEYM has been running Giving Tuesday donation campaign through Facebook. Last year Facebook switched its payment system to Paypal, which has caused issues for VEYM since it is registered as the old name VEYS, so Facebook/Paypal will not release the funds to us. After almost a year the issue still has not been resolved and we have not received the money.
+For the past few years, VEYM has been running Giving Tuesday donation campaign through Facebook. Last year Facebook switched its payment system to Paypal, which has caused issues with releasing the funds. After almost a year the problem has still has not been resolved and we have not received the money.
 
 While that issue is being worked on, for this year's Giving Tuesday it was decided to build our own donation system to avoid these issues. I was notified the week of November 4 that we would need this system, and that we needed to have the system ready to launch on the week of November 12.
 
@@ -92,8 +92,8 @@ Established processes
 
 ## Thoughts
 
+- The "Leeto Stack" (Next.js + Directus) allows rapid development of features
 - Stripe and Resend have a great Developer Experience
-- familiarity with the "Leeto Stack" (Directus + T3) stack makes spinning up a fullstack app really quick and easy
   - familiarity with Stripe from VDH helped as well
 
 PR: https://github.com/leetosc/veymv2/pull/32/files
