@@ -50,11 +50,11 @@ Established processes
 
 - Create pages for each Giving Tuesday Campaign
   - Pull data and display on page
-  - page content
-  - donations list
-    - filter out donations that are of type `card` and `received` = `false` (these are from failed/abandoned checkout sessions)
-    - `chapters` and `leagues` lists to populate form inputs
-- Show the progress bar with multiple segments
+    - page content
+    - donations list
+      - filter out donations that are of type `card` and `received` = `false` (these are from failed/abandoned checkout sessions)
+      - `chapters` and `leagues` lists to populate form inputs
+- Show progress bar with multiple segments
   - by default, ChakraUI `Progress` component does not support multiple segments
     - extend the component in ChakraUI theme to add the functionality [Source](https://codesandbox.io/p/sandbox/chakra-ui-theme-extension-w5u2n?file=%2Fsrc%2Fcomponents%2FChakraNestedProvider%2Findex.js)
   - calculate received and pledged amounts
@@ -72,6 +72,7 @@ Established processes
       - add `line_item` with a new `price_data` object with the inputted price
       - add `donationId` to session metadata to reference later
   - Handle checkout completed webhook
+    - test locally using Stripe CLI to forward webhook to localhost
     - find the respective donation in Directus from the `donationId` in the metadata and update `received` field
     - send email receipt
     - send Discord notification
