@@ -43,7 +43,8 @@ Established processes
 
 ### Backend
 
-- Create collections for `giving_tuesday_campaigns` and `giving_tuesday_donations` in Directus - relate donations to campaigns
+- Create collections for `giving_tuesday_campaigns` and `giving_tuesday_donations` in Directus 
+  - relate donations to campaigns
 
 ### Frontend
 
