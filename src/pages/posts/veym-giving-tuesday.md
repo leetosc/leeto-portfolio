@@ -95,3 +95,5 @@ Established processes
 - Stripe and Resend have a great Developer Experience
 - familiarity with the "Leeto Stack" (Directus + T3) stack makes spinning up a fullstack app really quick and easy
   - familiarity with Stripe from VDH helped as well
+
+PR: https://github.com/leetosc/veymv2/pull/32/files
