@@ -10,6 +10,7 @@ type IProjectProps = {
   link: string;
   category: ReactNode;
   pageLink?: string;
+  year?: string;
 };
 
 const Project = ({
@@ -19,12 +20,19 @@ const Project = ({
   category,
   description,
   pageLink,
+  year,
 }: IProjectProps) => (
-  <div className="flex flex-col items-center gap-x-8 rounded-md bg-slate-800 p-3 md:flex-row">
+  <div className="relative flex flex-col items-center gap-x-8 rounded-md bg-slate-800 p-3 md:flex-row">
+    {year && (
+      <span className="absolute right-2 top-2 rounded-full bg-cyan-700 px-3 py-1 text-sm font-bold text-gray-200">
+        {year}
+      </span>
+    )}
+
     <div className="shrink-0">
       <a href={link} target={link.charAt(0) === '/' ? '_self' : '_blank'}>
         <img
-          className="h-36 w-36 object-cover hover:translate-y-1"
+          className="size-36 object-cover hover:translate-y-1"
           src={img.src}
           alt={img.alt}
           loading="lazy"

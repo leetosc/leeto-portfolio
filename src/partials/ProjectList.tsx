@@ -53,6 +53,7 @@ const ProjectList = () => (
           </>
         }
         pageLink="veym-net"
+        year="2022"
       />
       <Project
         name="VEYM Members Portal"
@@ -69,6 +70,7 @@ const ProjectList = () => (
             <Tags color={ColorTags.BLUE}>TypeScript</Tags>
           </>
         }
+        year="2022"
       />
 
       <Project
@@ -91,6 +93,7 @@ const ProjectList = () => (
           </>
         }
         // pageLink="docs-helper"
+        year="2024"
       />
       <Project
         name="Hiep Si v4"
@@ -111,6 +114,7 @@ const ProjectList = () => (
           </>
         }
         // pageLink="docs-helper"
+        year="2023"
       />
       <Project
         name="YT Summarizer"
@@ -133,6 +137,7 @@ const ProjectList = () => (
           </>
         }
         pageLink="yt-summarizer"
+        year="2024"
       />
       <Project
         name="VEYM Docs Helper"
@@ -154,6 +159,7 @@ const ProjectList = () => (
           </>
         }
         pageLink="docs-helper"
+        year="2023"
       />
       <Project
         name="VEYM Business Directory"
@@ -173,6 +179,7 @@ const ProjectList = () => (
             <Tags color={ColorTags.BLUE}>TypeScript</Tags>
           </>
         }
+        year="2023"
       />
       <Project
         name="HT Hero"
@@ -194,6 +201,7 @@ const ProjectList = () => (
           </>
         }
         pageLink="ht-hero"
+        year="2023"
       />
       <Project
         name="Quiz Aide"
@@ -216,6 +224,7 @@ const ProjectList = () => (
           </>
         }
         pageLink="quiz-aide"
+        year="2023"
       />
       <Project
         name="VEYM URL Shortener"
@@ -233,6 +242,8 @@ const ProjectList = () => (
             <Tags color={ColorTags.BLUE}>TypeScript</Tags>
           </>
         }
+        pageLink="url-shortener"
+        year="2022"
       />
       <Project
         name="Hiep Si v3"
@@ -251,6 +262,7 @@ const ProjectList = () => (
           </>
         }
         pageLink="hiepsi3"
+        year="2022"
       />
       <Project
         name="Wedding Website"
@@ -267,6 +279,7 @@ const ProjectList = () => (
           </>
         }
         pageLink="wedding-website"
+        year="2021"
       />
       <Project
         name="Virtual HTDT"
@@ -284,6 +297,7 @@ const ProjectList = () => (
           </>
         }
         pageLink="virtual-htdt"
+        year="2021"
       />
       <Project
         name="Board Game Library"
@@ -302,6 +316,7 @@ const ProjectList = () => (
           </>
         }
         pageLink="leeto-games"
+        year="2020"
       />
       <Project
         name="DB COVID Screening"
@@ -321,6 +336,7 @@ const ProjectList = () => (
           </>
         }
         pageLink="dbsafe"
+        year="2021"
       />
       <Project
         name="Pho Phi Louisville"
@@ -340,6 +356,7 @@ const ProjectList = () => (
           </>
         }
         pageLink="phophilouisville"
+        year="2020"
       />
       <Project
         name="DB Lion Dance"
@@ -358,6 +375,7 @@ const ProjectList = () => (
           </>
         }
         pageLink="dbld"
+        year="2020"
       />
       <Project
         name="VDH7 2020"
@@ -376,6 +394,7 @@ const ProjectList = () => (
           </>
         }
         pageLink="vdh7"
+        year="2019"
       />
       <Project
         name="Dogs Fed Time Tracker"
@@ -393,6 +412,7 @@ const ProjectList = () => (
           </>
         }
         pageLink="dogs-fed-tracker"
+        year="2022"
       />
       <Project
         name="Gloomhaven Monster Tracker"
@@ -410,6 +430,7 @@ const ProjectList = () => (
           </>
         }
         pageLink="gloomhavenhealth"
+        year="2018"
       />
       <Project
         name="Hiep Si v2"
@@ -428,6 +449,7 @@ const ProjectList = () => (
           </>
         }
         pageLink="hiepsi2"
+        year="2017"
       />
       <Project
         name="Hiep Si v1"
@@ -447,6 +469,7 @@ const ProjectList = () => (
           </>
         }
         pageLink="hiepsi1"
+        year="2016"
       />
     </div>
   </Section>
