@@ -179,6 +179,7 @@ const ProjectList = () => (
             <Tags color={ColorTags.BLUE}>TypeScript</Tags>
           </>
         }
+        pageLink="veym-biz"
         year="2023"
       />
       <Project
