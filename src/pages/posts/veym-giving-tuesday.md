@@ -54,15 +54,15 @@ Established processes
     - donations list
       - filter out donations that are of type `card` and `received` = `false` (these are from failed/abandoned checkout sessions)
       - `chapters` and `leagues` lists to populate form inputs
-- Show progress bar with multiple segments
-  - by default, ChakraUI `Progress` component does not support multiple segments
-    - extend the component in ChakraUI theme to add the functionality [Source](https://codesandbox.io/p/sandbox/chakra-ui-theme-extension-w5u2n?file=%2Fsrc%2Fcomponents%2FChakraNestedProvider%2Findex.js)
-  - calculate received and pledged amounts
-- Form to input info and amount
-  - `react-hook-form`
-- Dynamic OG image
-  - Show the current amount and progress bar in the OG image
-  - `@vercel/og`
+  - Show progress bar with multiple segments
+    - by default, ChakraUI `Progress` component does not support multiple segments
+      - extend the component in ChakraUI theme to add the functionality [Source](https://codesandbox.io/p/sandbox/chakra-ui-theme-extension-w5u2n?file=%2Fsrc%2Fcomponents%2FChakraNestedProvider%2Findex.js)
+    - calculate received and pledged amounts
+  - Form to input info and amount
+    - `react-hook-form`
+  - Dynamic OG image
+    - Show the current amount and progress bar in the OG image
+    - `@vercel/og`
 - **Stripe Payment functionality**
   - Create product `Giving Tuesday Donation` with variable pricing in Stripe dashboard
   - Create Next.js API routes on Main Website
