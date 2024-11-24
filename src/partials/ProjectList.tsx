@@ -303,7 +303,7 @@ const ProjectList = () => (
       <Project
         name="Board Game Library"
         description="Catalog of my board game collection, with check-in/check-out system"
-        link="https://leeto.games"
+        link="https://games.leeto.dev"
         img={{
           src: screenshotBoardGames,
           alt: 'leeto.games',
