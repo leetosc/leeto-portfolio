@@ -413,7 +413,7 @@ const ProjectList = () => (
           </>
         }
         pageLink="dogs-fed-tracker"
-        year="2022"
+        year="2021"
       />
       <Project
         name="Gloomhaven Monster Tracker"

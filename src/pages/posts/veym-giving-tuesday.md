@@ -92,6 +92,34 @@ Established processes
 - Add env vars to Vercel project
   - separate set of env vars for `production` and `development`/`preview`
 
+
+### **Admin UI**
+
+- Goal - when Anh Lap receives a Check or Zelle donation, mark it as `received` and automatically send an email receipt to the donor
+  - set up new repo specifically using `create-t3-app@7.37.0` 
+	  - newer versions use Next.js v15, React 19, next-auth v5 which have a lot of changes
+  - Install and set up dependencies
+	  - shadcn UI
+	  - NextAuth with Azure AD B2C
+	  - Prisma schema
+	  - page layouts and util functions
+    - Resend email template
+  - Deployment
+	  - on ITApps VM
+		  - clone git repo
+			  - build app
+			  - run with `pm2`
+		  - add `nginx` conf
+		  - get SSL cert with `certbot`
+			  - add  `CNAME` record for subdomain, pointing to ITApps VM
+		- Automatically rebuild and redeploy on push
+			- set up git webhook
+			- on ITApps VM
+				- add configuration to `webhook-rebuilder`
+	- Auth: add redirect URL to App Registration
+	- CORS: add URL to allowlist in `Membership System` 
+	- Run Prisma Studio to set my user as admin
+
 ## Thoughts
 
 - The "Leeto Stack" (Next.js + Directus) allows rapid development of features
