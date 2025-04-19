@@ -53,8 +53,5 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
-  "volta": {
-    "node": "16.15.1"
-  },
   "author": "Leeto (https://github.com/leetosc)"
 }
